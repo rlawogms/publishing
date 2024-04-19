@@ -1,0 +1,46 @@
+.apple {
+  /* 자식의 배치도 css */
+  display: flex;
+  /* 가운데로 맞춰줘 */
+  justify-content: center;
+  /* 자식들의 간격을 10px */
+  gap: 10px;
+
+  color: black;
+  background-color: white;
+  width: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.round_button {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appIcon {
+  background-color: black;
+  color: white;
+}
+
+.naver {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.message {
+  background-color: skyblue;
+  color: white;
+}
