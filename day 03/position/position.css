@@ -1,0 +1,50 @@
+body {
+  height: 300vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.up {
+  display: flex;
+}
+.down {
+  display: flex;
+}
+.box {
+  width: 300px;
+  height: 300px;
+}
+.green {
+  background-color: green;
+}
+.green > span {
+  position: relative; /*현재 위치가 기준*/
+  left: 10px;
+  top: 10px;
+}
+.blue {
+  background-color: blue;
+}
+.blue > span {
+  position: absolute; /*전체 웹페이지가 기준*/
+  left: 30px;
+  top: 30px;
+}
+.orange {
+  background-color: orange;
+}
+.orange > span {
+  /*position: static;*/ /*기본 값 (디폴트 값)*/
+  position: fixed; /*위치 고정*/
+  top: 0px;
+  left: 0px;
+}
+.purple {
+  background-color: purple;
+}
+.purple > span {
+  position: sticky;
+  top: 100px;
+}
