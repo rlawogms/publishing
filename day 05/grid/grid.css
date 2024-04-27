@@ -1,0 +1,16 @@
+.container {
+  /* 자식의 배치를 행렬화(바둑판) */
+  display: grid;
+  /* fr 조각 */
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: repeat(3, 1fr);
+  width: fit-content;
+  grid-gap: 10px;
+}
+
+.box {
+  border: 1px solid black;
+  background-color: skyblue;
+  width: 100px;
+  height: 100px;
+}
